@@ -1,0 +1,132 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Secular One', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+.titulo{
+    color: rgb(79, 52, 15);
+    background-color: rgb(215, 121, 39);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    color: brown;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+}
+header{
+    background-image: url('../images/luzu-personassinyoyi.webp');
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+section h2{
+    text-align: center;
+    color:rgb(204, 66, 35)
+}
+
+section h4{
+    text-align: center;
+    font-weight: bold;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+body main div{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+
+}
+main div div{
+    text-align: center;
+
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.titulo_index{
+    color: rgb(215, 121, 39);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titulogrilla{
+    background-color: aqua;
+    grid-area: titulogrilla;
+    width: 100%;
+}
+
+.spotify{
+    background-color: green;
+    grid-area: spotify;
+}
+.youtube{
+    background-color: red;
+    grid-area: youtube;
+}
+.twitch{
+    background-color: blueviolet;
+    grid-area: twitch;
+    
+}
+.imagen{
+    background-color: antiquewhite;
+    grid-area: imagen;
+}
+.parrafo{
+    background-color: brown;
+    grid-area: parrafo;
+    width: 300px;
+    line-height: 1;
+}
+
+#grilla_index{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 100px 150px 500px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+    "titulogrilla titulogrilla titulogrilla"
+    "youtube spotify twitch"
+    "parrafo imagen imagen";
+    align-content: center;
+}
