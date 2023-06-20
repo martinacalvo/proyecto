@@ -61,10 +61,7 @@ header nav ul{
     display: flex;
     justify-content: space-evenly;
 }
-body main div{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .logoapp{
     width: 20%;
     height: 20%;
@@ -73,14 +70,9 @@ body main div{
 main{
     margin: 10px;
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 main div{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
 
@@ -132,7 +124,9 @@ footer nav ul{
     width: 300px;
     line-height: 1;
 }
-
+.fondo{
+    background-color: beige;
+}
 #grilla_index{
     margin: 10px;
     padding: 10px;
