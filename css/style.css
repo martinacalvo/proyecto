@@ -15,12 +15,12 @@ a{
 
 .titulo{
     color: rgb(79, 52, 15);
-    background-color: rgb(215, 121, 39);
-    font-family: 'Bebas Neue', sans-serif;
+    background-image: url('../images/luzu-personassinyoyi.webp');
     font-weight: bold;
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family: 'Cuprum', sans-serif;
 }
 
 p{
@@ -65,6 +65,11 @@ body main div{
     display: flex;
     flex-wrap: wrap;
 }
+.logoapp{
+    width: 20%;
+    height: 20%;
+}
+
 main{
     margin: 10px;
     padding: 10px;
