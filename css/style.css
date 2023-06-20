@@ -29,19 +29,29 @@ p{
     font-family: 'Bebas Neue', sans-serif;
     font-weight: bold;
 }
-header{
+body header div nav{
     background-image: url('../images/luzu-personassinyoyi.webp');
     width: 100vw;
     top: 0px;
     left: 0px;
-    display: flex;
-    flex-direction: column;
-    position: sticky;
+
+}
+.barranav{
+    position: sticky !important;
+    
 }
 section h2{
     text-align: center;
     color:rgb(204, 66, 35)
 }
+
+.texto{
+    text-align: center;
+    line-height: normal;
+    font-size: small;
+    font-weight: bold;
+}
+
 
 section h4{
     text-align: center;
