@@ -23,6 +23,10 @@ a{
     font-family: 'Cuprum', sans-serif;
 }
 
+.colorbootstrap{
+    color
+}
+
 p{
     text-align: center;
     color: brown;
@@ -125,7 +129,7 @@ footer nav ul{
     line-height: 1;
 }
 .fondo{
-    background-color: beige;
+    background-color: rgb(223, 176, 126);
 }
 #grilla_index{
     margin: 10px;
